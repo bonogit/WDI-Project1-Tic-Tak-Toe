@@ -1,16 +1,19 @@
-project Tic Tak Toe
-<p1>General Description</p1>
+Project Tic Tak Toe
+
+<p1>How To Play</p1>
+
+Each of the two players chooses a side and enters their name into the appropriate text box. Only once both players have 'reported for duty' is the game playable.
+
+The winnner of each game is awarded one point. At the end of a game, the next one can be played by clicking Next game. Clicking cross will reset player scores to zero, and allow new players to 'report'.
+
+<p1>General information</p1>
 <ul>
-<li>1.This is a web appplication deployed on github.</li>
-<li>2.The application utilizes HTML, CSS and JavaScript. It maily uses jQuery for DOM manilpulation. </li>
-<li>3.Semantic markup for HTML and CSS are used through the codes. </li>
-<li>4.A game board with grid of 9 blocks is drawed for the game. </li>
-<li>5.The game is designed for two players, while players' name will be required before starting the game. Players' name will be displayed acordingly whild playing. </li>
-<li>6.Counter is set and display for calculating how many round player wins.</li>
-<li>7.On the end of the game, dialog window will be pop up decide whether playing againg or closing the window. </li>
-<li>8.When the winning side appears, the result will be highlighted visually and the winning combination will be shown as well. </li>
-<li>9.To play game, please visit: http://bonogit.github.io/</li>
+<li>Web appplication deployed on github.</li>
+<li>Utilizes HTML, CSS and JavaScript. Uses jQuery for DOM manilpulation. </li>
+<li>Semantic markup for HTML and CSS are used through the codes. </li>
+<li>To play game, please visit: http://bonogit.github.io/</li>
 </ul>
+
 <p1>Main function List</p1>
 <ul>
 <li>initialGame : set all the variables, buttons and layout back to default value</li>
@@ -22,6 +25,7 @@ project Tic Tak Toe
 <li>endDrawGame : show the pop up window when the game is draw</li>
 <li>drawGameReset : repond to reset button in the pop up for re-initiate the game </li>
 </ul>
+
 <p1>Variable List</p1>
 <ul>
 <li>playsData : array for storing the data in every button</li>
